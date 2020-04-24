@@ -9,10 +9,14 @@ class Person
     self.partner = person
     person.partner = self
   end
+  
+  
 
 end
 
 class PartnerError < StandardError
+  
+end 
 
 
 beyonce = Person.new("Beyonce")
